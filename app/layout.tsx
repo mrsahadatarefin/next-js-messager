@@ -1,5 +1,8 @@
+
 import '../styles/globals.css'
 import Header from './Header'
+
+
 
 export const metadata = {
   title: 'Meta messenger',
@@ -7,18 +10,20 @@ export const metadata = {
 }
 
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  
   return (
     <html lang="en">
-     
+
+
       <body>
-      <Header></Header>
-        
-        {children}
+      <Header/>
+     
+           {children}
         
         
         </body>

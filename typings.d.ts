@@ -5,6 +5,6 @@ export type  message = {
     message:string,
     created_at:number,
     username:string,
-    profilePic: image,
+    profilePic: string,
     email:string
    }
